@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string-array name="control_mode">
+		<item>터치 모드</item>
+		<item>버튼 모드</item>
+	</string-array>
+	<string-array name="direct">
+		<item>시계 방향</item>
+		<item>반 시계방향</item>
+	</string-array>
+</resources>

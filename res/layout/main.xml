@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:id="@+id/IDV_FULL_SCREEN"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#A0000000"
+    >
+    <!-- Background image -->
+    <ImageView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:src="@drawable/bg03"
+    />
+    <ImageView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="#60FFFFFF"
+    />
+    
+    <!--  -->
+    <LinearLayout
+    android:orientation="horizontal"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:paddingLeft="20px"
+    android:paddingTop="30px"
+    >
+	    <!-- Game board -->
+	    <com.seirion.btetris.BBoard
+	        android:id="@+id/IDV_MAIN_BOARD"
+	        android:layout_width="300px"
+	        android:layout_height="600px"
+	    />
+    	<FrameLayout
+		    android:layout_width="wrap_content"
+		    android:layout_height="600px"
+		    android:paddingLeft="0px"
+		    >
+		    <!-- next block board -->
+			<com.seirion.btetris.BNextBlockBoard
+			    android:id="@+id/IDV_NEXT_BLOCK_BOARD"
+				android:layout_width="120px"
+			    android:layout_height="120px"
+			    android:layout_gravity="top"
+			/>
+			<!-- score board -->
+			<com.seirion.btetris.BScoreBoard
+				android:id="@+id/IDC_SCORE_BOARD"
+		    	android:layout_width="wrap_content"
+			    android:layout_height="wrap_content"
+			    android:layout_gravity="center_vertical"
+			    />
+		</FrameLayout>
+    </LinearLayout>
+    <TextView
+    	android:id="@+id/test"
+    	android:layout_width="wrap_content"
+    	android:layout_height="wrap_content"
+    	android:text=""
+    />
+</FrameLayout>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Welcome !</string>
+    <string name="app_name">Babo Tetris</string>
+    <string name="IDS_BTETRIS">Babo Tetris</string>
+    <string name="IDS_WEB_PAGE_URL">http://seirion.com</string>
+    
+    <string name="IDS_YES">Yes</string>
+    <string name="IDS_NO">No</string>
+    <string name="IDS_OK">OK</string>
+    <string name="IDS_CANCEL">Cancel</string>
+    <string name="IDS_APPLY">Apply</string>
+    <string name="IDS_EXIT_MESSAGE">Are you sure you want to exit ?</string>
+    <string name="IDS_GAME_OVER">Game Over.</string>
+    <string name="IDS_SETTING">Settings</string>
+    <string name="IDS_RESTART">Restart</string>
+    <string name="IDS_RECORD">Records</string>
+    
+    <string name="IDS_CONTROL_MODE">Control mode</string>
+    <string name="IDS_CONTROL_MODE_DISC">Select block control mode.</string>
+    <string name="IDS_ROTATION_DIRECT">Rotation</string>
+    <string name="IDS_ROTATION_DIRECT_DISC">Select the direct blocks rotate.</string>
+    
+    <string name="IDS_RANK">Rank</string>
+    <string name="IDS_NEW_RECORD_MSG">It\'s a new Record.</string>
+    <string name="IDS_INPUT_YOUR_NAME">Input Your Name.</string>
+</resources>

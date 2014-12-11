@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">안뇽 ~</string>
+    <string name="app_name">바보 테트리스</string>
+    <string name="IDS_BTETRIS">바보 테트리스</string>
+    <string name="IDS_WEB_PAGE_URL">http://seirion.com</string>
+    
+    <string name="IDS_YES">예</string>
+    <string name="IDS_NO">아니오</string>
+    <string name="IDS_OK">확인</string>
+    <string name="IDS_CANCEL">취소</string>
+    <string name="IDS_APPLY">적용</string>
+    <string name="IDS_EXIT_MESSAGE">종료 하시겠습니까 ?</string>
+    <string name="IDS_GAME_OVER">사망</string>
+    <string name="IDS_SETTING">설정</string>
+    <string name="IDS_RESTART">다시하기</string>
+    <string name="IDS_RECORD">기록</string>
+    
+    <string name="IDS_CONTROL_MODE">조작 모드</string>
+    <string name="IDS_CONTROL_MODE_DISC">블럭 조작 방식을 지정하십시오.</string>
+    <string name="IDS_ROTATION_DIRECT">회전 방향</string>
+    <string name="IDS_ROTATION_DIRECT_DISC">블럭 회전 방향을 지정하십시오.</string>
+    
+    <string name="IDS_RANK">순위 보기</string>
+    <string name="IDS_NEW_RECORD_MSG">새 기록입니다.</string>
+    <string name="IDS_INPUT_YOUR_NAME">이름을 입력해 보아요.</string>
+</resources>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="horizontal"
+	android:layout_width="156px"
+	android:layout_height="33px" 
+	android:background="@drawable/score_board">
+	<ImageView 
+		android:id="@+id/IDC_SCORE_4"
+		android:layout_width="28px"
+		android:layout_height="wrap_content" 
+		android:layout_marginLeft="3px"
+		android:scaleType="center" android:layout_marginTop="3px"/>
+	<ImageView
+		android:id="@+id/IDC_SCORE_3"
+		android:layout_width="28px" 
+		android:layout_height="wrap_content" 
+		android:scaleType="center" 
+		android:layout_marginLeft="2px"
+		android:layout_marginTop="3px"/>
+	<ImageView
+		android:id="@+id/IDC_COMMA"
+		android:layout_height="wrap_content" 
+		android:layout_width="5px" 
+		android:layout_marginTop="2px" 
+		android:scaleType="center"/>
+	<ImageView
+		android:id="@+id/IDC_SCORE_2"
+		android:layout_width="28px"
+		android:layout_height="wrap_content"
+		android:layout_marginLeft="2px"  
+		android:scaleType="center" 
+		android:layout_marginTop="3px"/>
+	<ImageView
+		android:id="@+id/IDC_SCORE_1"
+		android:layout_width="28px"
+		android:layout_height="wrap_content"
+		android:layout_marginLeft="1px"  
+		android:scaleType="center" android:layout_marginTop="3px"/>
+	<ImageView 
+		android:id="@+id/IDC_SCORE_0"
+		android:layout_width="28px"
+		android:layout_height="wrap_content" 
+		android:src="@drawable/n_0" 
+		android:scaleType="center"
+		android:layout_marginTop="3px" 
+		android:layout_marginLeft="1px"/>
+</LinearLayout>
